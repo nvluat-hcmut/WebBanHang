@@ -1,0 +1,108 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1300px;
+    margin: 0px auto;
+    background-color: rgba(96, 209, 175, 0.5);
+}
+#main {
+
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgb(212, 90, 19);
+    font-size: 16px; 
+}
+
+#menu .sub-menu {
+        display: none;
+}
+
+#menu .menu-arrow-down {
+    font-size: 14px;
+}
+#menu li{
+    display: inline-block;
+    float: left;    
+    width: 160px;
+    line-height: 60px;
+    text-align: center;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0 24px;
+    display: block;
+    text-transform: uppercase;
+}
+
+#menu li:hover a {
+    color: #000;
+    background-color: #fff;
+}
+
+#main .search-btn {
+    /* height: 46px; */
+    font-size: 25px;
+    width: 100px;
+    padding: 15px 38px;
+    float: right;
+    cursor: pointer;
+}
+
+#main .search-btn:hover {
+    background-color: #fff;
+}
+
+#menu li .input {
+    width: 100%;
+    padding: 0px 1000px;
+    margin-right: 100px;
+    text-align: right;
+}
+
+#banner {
+    width: 1300px;
+    height: 500px;      
+}
+
+#content {
+
+}
+
+#left {
+    width: 850px;
+    min-height: 600px;
+    background-color:#ccc;
+    float: left;
+}
+
+#right {
+    width: 450px;
+    min-height: 600px;
+    background-color:rgb(87, 34, 34);
+    float: left;
+}
+
+#footer {
+    width: 1300px;
+    min-height: 60px;
+    background-color:rgb(73, 106, 119);
+    clear: left;
+}
